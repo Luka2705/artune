@@ -1,16 +1,13 @@
-# music_recommender
+# Artune · Flutter-App
 
-A new Flutter project.
+Die iOS-Oberfläche für **Artune**: Foto auswählen, Claude oder Ollama wählen und den passenden Soundtrack auf Spotify entdecken.
 
-## Getting Started
+Die vollständige Dokumentation mit Screenshots, Backend-Einrichtung und Startanleitung findest du in der **[Projekt-README](../README.md)**.
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter devices
+flutter run -d <device-id>
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Das Backend muss separat laufen. Die Standardadresse im iOS-Simulator ist `http://127.0.0.1:8001`; sie lässt sich in den App-Einstellungen ändern.
